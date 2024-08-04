@@ -33,6 +33,8 @@ When ele clica no link "Módulo de Curso"
 Then ele deve ser redirecionado para a página do módulo de curso
 And a página do módulo de curso deve ser exibida corretamente
 
+
+
 Cenário 2: Página não encontrada
 
 
@@ -43,6 +45,7 @@ Then ele deve ver uma mensagem de erro "Página não encontrada"
 User Story 2: Login no sistema
 User Story:
 Como usuário, quero fazer login no sistema para acessar meus cursos.
+
 
 Casos de Teste:
 
@@ -57,10 +60,71 @@ And uma mensagem de boas-vindas deve ser exibida
 
 Cenário 2: Login com falha (credenciais incorretas)
 
-gherkin
-Copiar código
+
 Given que o usuário está na página de login
 And ele tem uma conta registrada
 When ele insere um email ou senha incorretos
 And clica no botão "Login"
 Then ele deve ver uma mensagem de erro "Email ou senha incorretos"
+
+
+User Story 3: Inscrição em um curso
+User Story:
+Como usuário, quero me inscrever em um curso para acessar o conteúdo do curso.
+
+Casos de Teste:
+
+Cenário 1: Inscrição bem-sucedida
+
+
+Given que o usuário está na página do módulo de curso
+And ele está logado no sistema
+When ele clica no botão "Inscrever-se"
+Then ele deve ver uma mensagem de confirmação "Inscrição realizada com sucesso"
+And o curso deve ser adicionado à sua lista de cursos
+
+Cenário 2: Inscrição com falha (usuário não logado)
+
+
+Given que o usuário está na página do módulo de curso
+And ele não está logado no sistema
+When ele clica no botão "Inscrever-se"
+Then ele deve ser redirecionado para a página de login
+And deve ver uma mensagem "Por favor, faça login para se inscrever no curso"
+
+
+User Story 4: Acesso ao conteúdo do curso
+User Story:
+Como usuário, quero acessar o conteúdo do curso para estudar.
+
+Casos de Teste:
+
+Cenário 1: Acesso ao conteúdo com sucesso
+
+
+Given que o usuário está inscrito em um curso
+And ele está logado no sistema
+When ele acessa a página do curso
+Then ele deve ver todos os módulos e conteúdos disponíveis para o curso
+
+
+Cenário 2: Acesso ao conteúdo com falha (usuário não inscrito)
+
+
+Given que o usuário não está inscrito no curso
+And ele está logado no sistema
+When ele tenta acessar a página do curso
+Then ele deve ver uma mensagem "Você não está inscrito neste curso"
+And ele deve ser redirecionado para a página de inscrição do curso
+
+
+Documentação dos Casos de Teste
+Link para a planilha no Google Sheets
+
+Passo-a-passo para Execução dos Casos de Teste
+Acesse a página inicial do site.
+Clique no link "Módulo de Curso".
+Verifique se a página do módulo de curso é exibida corretamente.
+Evidências dos Testes
+Link para as evidências no Google Drive
+
