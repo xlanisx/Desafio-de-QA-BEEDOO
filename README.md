@@ -32,3 +32,10 @@ Given que o usuário está na página inicial
 When ele clica no link "Módulo de Curso"
 Then ele deve ser redirecionado para a página do módulo de curso
 And a página do módulo de curso deve ser exibida corretamente
+
+Cenário 2: Página não encontrada
+
+
+Given que o usuário está na página inicial
+When ele clica em um link inválido
+Then ele deve ver uma mensagem de erro "Página não encontrada"
