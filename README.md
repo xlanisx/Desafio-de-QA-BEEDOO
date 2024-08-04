@@ -39,3 +39,18 @@ Cenário 2: Página não encontrada
 Given que o usuário está na página inicial
 When ele clica em um link inválido
 Then ele deve ver uma mensagem de erro "Página não encontrada"
+
+User Story 2: Login no sistema
+User Story:
+Como usuário, quero fazer login no sistema para acessar meus cursos.
+
+Casos de Teste:
+
+Cenário 1: Login com sucesso
+
+Given que o usuário está na página de login
+And ele tem uma conta registrada
+When ele insere seu email e senha corretos
+And clica no botão "Login"
+Then ele deve ser redirecionado para a página do painel de cursos
+And uma mensagem de boas-vindas deve ser exibida
