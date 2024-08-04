@@ -54,3 +54,13 @@ When ele insere seu email e senha corretos
 And clica no botão "Login"
 Then ele deve ser redirecionado para a página do painel de cursos
 And uma mensagem de boas-vindas deve ser exibida
+
+Cenário 2: Login com falha (credenciais incorretas)
+
+gherkin
+Copiar código
+Given que o usuário está na página de login
+And ele tem uma conta registrada
+When ele insere um email ou senha incorretos
+And clica no botão "Login"
+Then ele deve ver uma mensagem de erro "Email ou senha incorretos"
