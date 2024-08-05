@@ -1,9 +1,9 @@
-DESAFIO QA BEEDOO
-User Stories e Casos de Teste
-Objetivo:
+# DESAFIO QA BEEDOO
+## User Stories e Casos de Teste
+### Objetivo:
 Este desafio tem como objetivo elaborar user stories e cenários de teste para a aplicação Beedoo QA Chalenge
 
-📚 Escopo:
+### 📚 Escopo:
 -User stories
 
 -Cenários de testes
@@ -12,19 +12,19 @@ Este desafio tem como objetivo elaborar user stories e cenários de teste para a
 
 -Relatório de Bugs
 
-Decisões tomadas
+### Decisões tomadas
 Priorização: foram criadas user stories priorizadas pelo impacto no negócio
 
 Risco: foram consideradas as user stories baseadas no risco associado para o objetivo do usuário final
 
 Critérios de aceitação: foram definidos critérios claros e testáveis que determinam quando a user story poderá ser considerada completa
 
-User Stories
+### User Stories
 US01: Cadastro de Cursos
 
 US02: Lista de Cursos
 
-ferramentas utilizadas
+### ferramentas utilizadas
 Planilhas Google
 
 Loom
