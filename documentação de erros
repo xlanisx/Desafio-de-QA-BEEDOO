@@ -1,0 +1,143 @@
+# Documentação de Problemas
+
+## BEEDOO-0001: Informações do produto se embaralhando com outra
+
+**Descrição:**  
+Dado que o usuário coloca dois produtos na loja,  
+Quando ele vê as informações,  
+Então elas estão embaralhadas uma nas outras.
+
+**Objetivo:**  
+As informações deveriam ficar separadas em seus devidos lugares.
+
+**Versão:** 1  
+**Plataforma:** Windows  
+**Navegador:** Chrome  
+**Criticidade:** Grave  
+**Status:** Aberto
+
+---
+
+## BEEDOO-0002: URL não aparece
+
+**Descrição:**  
+Dado que o usuário tente enviar uma URL,  
+Quando enviada,  
+Então não são mostradas as imagens.
+
+**Objetivo:**  
+Quando o usuário mandar a URL para o curso, a imagem deverá aparecer.
+
+**Versão:** 1  
+**Plataforma:** Windows  
+**Navegador:** Chrome  
+**Criticidade:** Grave  
+**Status:** Aberto
+
+---
+
+## BEEDOO-0003: Não tem acesso ao curso
+
+**Descrição:**  
+Dado que o usuário tente acessar o curso,  
+Quando clicado no acesso,  
+Então não é mostrado o curso.
+
+**Objetivo:**  
+Quando escolhido o curso, o usuário deveria ter acesso ao curso.
+
+**Versão:** 1  
+**Plataforma:** Windows  
+**Navegador:** Chrome  
+**Criticidade:** Grave  
+**Status:** Aberto
+
+---
+
+## BEEDOO-0004: Datas não condizentes
+
+**Descrição:**  
+Dado que o usuário tente escolher a data do curso,  
+Quando o usuário escolhe,  
+Então as datas não são condizentes.
+
+**Objetivo:**  
+As datas do site devem ser condizentes para que faça sentido ao usuário.
+
+**Versão:** 1  
+**Plataforma:** Windows  
+**Navegador:** Chrome  
+**Criticidade:** Grave  
+**Status:** Aberto
+
+---
+
+## BEEDOO-0005: Não tem acesso às opções
+
+**Descrição:**  
+Dado que o usuário tente ver os cursos disponíveis,  
+Quando clicado no acesso,  
+Então não são mostradas as opções.
+
+**Objetivo:**  
+Quando clicado na opção escolhida, deveria aparecer os cursos.
+
+**Versão:** 1  
+**Plataforma:** Windows  
+**Navegador:** Chrome  
+**Criticidade:** Blocker  
+**Status:** Aberto
+
+---
+
+## BEEDOO-0006: Não consegue excluir
+
+**Descrição:**  
+Dado que o usuário queira excluir um curso,  
+Quando ele clica na opção,  
+Então o curso não é excluído.
+
+**Objetivo:**  
+Quando clicado no seletor de exclusão, o curso deveria ser excluído.
+
+**Versão:** 1  
+**Plataforma:** Windows  
+**Navegador:** Chrome  
+**Criticidade:** Moderada  
+**Status:** Aberto
+
+---
+
+## BEEDOO-0007: Informações sobre o curso saindo do espaço
+
+**Descrição:**  
+Dado que o usuário coloca uma informação no curso,  
+Quando ele envia,  
+Então as informações ultrapassam o limite.
+
+**Objetivo:**  
+As informações deveriam ficar no lugar devido.
+
+**Versão:** 1  
+**Plataforma:** Windows  
+**Navegador:** Firefox  
+**Criticidade:** Leve  
+**Status:** Aberto
+
+---
+
+## BEEDOO-0008: Erro de "script"
+
+**Descrição:**  
+Dado que o usuário cole um script no curso,  
+Quando enviado ao site,  
+Então ele consegue modificar o HTML.
+
+**Objetivo:**  
+Quando clicado nas imagens, não deveria aparecer a barra de escrita.
+
+**Versão:** 1  
+**Plataforma:** Windows  
+**Navegador:** Chrome  
+**Criticidade:** Leve  
+**Status:** Aberto
