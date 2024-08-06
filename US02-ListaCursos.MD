@@ -52,6 +52,4 @@ Como um usuário da aplicação, eu quero:
    - A lista de cursos deve ser inicialmente ordenada por **data de criação**.
    - O usuário pode selecionar a ordenação por **data de criação** ou **ordem alfabética** através de uma opção de filtragem.
 
----
 
-Este documento fornece uma visão geral dos requisitos e critérios de aceitação para a funcionalidade de lista de cursos na aplicação. Ajustes podem ser realizados conforme necessário.
