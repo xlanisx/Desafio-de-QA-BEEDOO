@@ -1,0 +1,38 @@
+User Story 1: Inscrição em um curso
+User Story:
+Como usuário, quero me inscrever em um curso para acessar o conteúdo do curso.
+
+Casos de Teste:
+
+Cenário 1: Inscrição bem-sucedida
+
+dado que o usuário está na página do módulo de curso
+e ele está logado no sistema
+quando ele clica no botão "Inscrever-se"
+então ele deve ver uma mensagem de confirmação "Inscrição realizada com sucesso"
+e o curso deve ser adicionado à sua lista de curso
+
+User Story 2: Acesso ao conteúdo do curso
+User Story:
+Como usuário, quero acessar o conteúdo do curso para estudar.
+
+Casos de Teste:
+
+Cenário 1: Acesso ao conteúdo com sucesso
+
+
+dado que o usuário está inscrito em um curso
+e ele está logado no sistema
+quando ele acessa a página do curso
+então ele deve ver todos os módulos e conteúdos disponíveis para o curso
+
+
+Cenário 2: Acesso ao conteúdo com falha (usuário não inscrito)
+
+dado que o usuário não está inscrito no curso
+e ele está logado no sistema
+quando ele tenta acessar a página do curso
+então ele deve ver uma mensagem "Você não está inscrito neste curso"
+e ele deve ser redirecionado para a página de inscrição do curso
+
+
